@@ -1,0 +1,9 @@
+1-   Diversos motivos: segurança, diversidade e adaptabilidade (muitas distros, open-source, sendo possivel modificar a gosto e/ou
+     escolher uma distro que melhor se adequa ao objetivo), custo, controle, comunidade grande e ativa, independência comercial.
+
+
+
+2-   Ubuntu, Debian, e CentOs 
+	https://secure1.securityspace.com/s_survey/data/man.201402/apacheos.html 
+	https://web.archive.org/web/20150806093859/http://www.w3cook.com/os/summary/ 
+	https://w3techs.com/technologies/details/os-linux
