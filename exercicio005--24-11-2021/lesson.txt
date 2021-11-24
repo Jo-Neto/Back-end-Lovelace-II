@@ -1,0 +1,36 @@
+1-   20, 21, 989(with ssl/tsl), 990(with ssl/tsl)
+
+
+
+2-   Na conexão ativa, após o fechamento da conexão do canal de comandos, o servidor é o primeiro a contatar o 
+     cliente, para o estabelecimento de conexão pelo canal de dados, ou seja, o cliente fica "esperando" a 
+     contatação do servidor por um porta aleatoria, o que acaba sendo bloqueado pelo firewall na maioria das vezes.
+
+     Na conexão passiva, após o fechamento da conexão do canal de comandos, o cliente é o primeiro a 
+     contatar o servidor, e o servidor retorna o "ack", finalmente estabelendo a conexão do canal de dados. 
+     Assim, o servidor possui o controle de quais portas esta disposto a aceitar conexões, não dependendo da 
+     "boa vontade" do firewall do cliente para o estabelecimento da conexão.
+
+
+
+3-   ftp
+     ftp ubuntu.alphaedtech.org.br
+     joseneto
+     (minha senha aqui)
+     cd www
+     mkdir newdir
+     mkdir verynewdir	
+     mkdir newerdir
+     dir
+     cd newdir
+     cd ..
+     cd newerdir
+     cd ..
+     put C:\Users\Neto-Workstation\Desktop\ftpfile.txt
+     get ftpfile.txt
+     quote RNFR ftpfile.txt
+     quote RNTO newdir/shit.txt
+     binary
+     ascii
+     quote pasv
+     
