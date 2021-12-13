@@ -1,0 +1,2 @@
+1-   Performance, que influencia diretamente no custo, configurações mais simples, 
+     e suporta proxy-reverso
